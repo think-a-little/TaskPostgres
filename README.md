@@ -1,1 +1,1 @@
-№ quadratic_equation
+# quadratic_equation
