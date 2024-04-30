@@ -43,7 +43,7 @@ ifeq ($(OS), Linux)
 endif
 	rm -rf *.gcda *.gcno *.info
 
-leaks: check
+leaks: clean check
 	$(LEAKS) ./check
 
 clean:
